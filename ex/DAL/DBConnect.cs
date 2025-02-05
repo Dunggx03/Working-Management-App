@@ -6,7 +6,7 @@ namespace ex.DAL
 {
     public class DBConnect
     {
-        public string strCon = @"Data Source=DESKTOP-QK1JQ42\SQLEXPRESS;Initial Catalog=WM;Integrated Security=True";
+        public string strCon = @"Data Source=*your DB source*;Initial Catalog=WM;Integrated Security=True";
         public SqlConnection sqlCon;
         public SqlCommand sqlCom;
         public SqlDataAdapter sqlAdap;
